@@ -35,17 +35,17 @@ h1{
     top:8.5vh;
     left:3vw;
     font-size:2vh;
-    
+
     color:#716E6E;
     
     font-weight: 500px;
 }
 .testar--dois{
     position: relative;
-    top:5.5vh;
-    left:3vw;
-    font-size:2vh;
     
+    font-size:2vh;
+    top:19vh;
+    right: 5vw;
     color:#716E6E;
     
     font-weight: 500px;
@@ -183,11 +183,6 @@ h1{
 p{
     font-size:1.8vh;
     color:#A6A6A6;
-    
-     
-  
-   
- 
 }
 p:hover{
     color:gray;
@@ -347,8 +342,8 @@ p:hover{
     }
     .testar--dois{
       
-     
-        left:22vw;
+       top:20vh;
+        right:20vw;
         font-size:2vh;
         
         color:#716E6E;
