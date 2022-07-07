@@ -9,7 +9,7 @@ texto2.classList.add('texto--dois')
 const fig=document.querySelector('button')
 fig.classList.add('caixadois')
  function aparecer(){
-    if(Input1.value.includes('E')==true && Input2.value.length>=8){
+    if(Input1.value && Input2.value.length>=8){
         
          
             fig.classList.remove('caixadois')       
