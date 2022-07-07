@@ -31,9 +31,9 @@ h1{
     margin-left:4vw;
 }
 .testar{
-    position: relative;
-    top:8.5vh;
-    left:3vw;
+    position: absolute;
+    top:33vh;
+    left:2vw;
     font-size:2vh;
 
     color:#716E6E;
@@ -41,16 +41,17 @@ h1{
     font-weight: 500px;
 }
 .testar--dois{
-    position: relative;
-    
+ 
+    position: absolute;
     font-size:2vh;
-    top:19vh;
-    right: 5vw;
+    top:43vh;
+    left:2vw;
     color:#716E6E;
     
     font-weight: 500px;
 }
 .nome{
+   
     width:18vw;
     height:8vh;
     margin-left:1vw;
@@ -64,6 +65,7 @@ h1{
 }
 
 .senha{
+  
     margin-top:2vh;
     width:18vw;
     height:8vh;
@@ -242,6 +244,7 @@ p:hover{
     
     }
     .nome{
+        
         width:77vw;
         height:8vh;
         margin-left:15vw;
@@ -251,6 +254,7 @@ p:hover{
         
     }
     .senha{
+       
         margin-top:2vh;
         width:77vw;
         height:8vh;
