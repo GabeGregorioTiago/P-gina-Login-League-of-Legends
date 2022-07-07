@@ -9,9 +9,14 @@ texto2.classList.add('texto--dois')
 const fig=document.querySelector('button')
 fig.classList.add('caixadois')
  function aparecer(){
-    if(Input1.value && Input2.value.length>=6){
-          fig.classList.remove('caixadois')       
-          fig.classList.add('Caixadois')  
+    if(Input1.value.includes('E')==true && Input2.value.length>=8){
+        
+         
+            fig.classList.remove('caixadois')       
+            fig.classList.add('Caixadois')  
+         
+         
+         
            
     }
     else{
@@ -24,3 +29,4 @@ fig.classList.add('caixadois')
 
 Input1.addEventListener('input',aparecer)
 Input2.addEventListener('input',aparecer)
+
